@@ -7,6 +7,14 @@
 
     $ component install segmentio/overlay
 
+## Example
+
+```js
+var overlay = require('overlay');
+
+overlay().closable(); // the body now has an overlay on it
+```
+
 ## API
 
 ### overlay(target)
