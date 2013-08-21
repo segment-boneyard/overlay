@@ -35,10 +35,10 @@ overlay().closable(); // the body now has an overlay on it
 ### #temporary()
   Make the overlay remove itself after it's been hidden. This is useful for one-off overlays where you don't want to have to manage removing it from the DOM.
 
-### Emitter
+### #emitter
   [`component/emitter`](https://github.com/component/emitter) is mixed in.
 
-### Classes
+### #classes
   [`ianstormtaylor/classes`](https://github.com/ianstormtaylor/classes) is mixed in.
   
 
