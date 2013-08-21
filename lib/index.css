@@ -1,0 +1,31 @@
+
+/**
+ * Overlay
+ *
+ * div.overlay[.hidden][.closable][.fixed][.temporary]
+ */
+
+.overlay {
+  position: absolute;
+  z-index: 500;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  transition: opacity .3s;
+  -webkit-transition: opacity .3s;
+}
+
+.overlay.hidden {
+  pointer-events: none; /* let the mouse pass through while hidden */
+  opacity: 0;
+}
+
+.overlay.fixed {
+  position: fixed;
+}
+
+.overlay.closable {
+  cursor: pointer;
+}
