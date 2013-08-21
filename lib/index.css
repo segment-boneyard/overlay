@@ -2,7 +2,7 @@
 /**
  * Overlay
  *
- * div.overlay[.hidden][.closable][.fixed][.temporary]
+ * div.overlay[.hidden][.clos(e)able][.fixed][.temporary]
  */
 
 .overlay {
@@ -26,6 +26,6 @@
   position: fixed;
 }
 
-.overlay.closable {
+.overlay.closeable {
   cursor: pointer;
 }
