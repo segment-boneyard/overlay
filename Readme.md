@@ -21,13 +21,13 @@ overlay().closeable(); // the body now has an overlay on it
   Show an overlay on a given `target` element, defaulting to `document.body`.
 
 ### #show(fn)
-  Show the overlay, optionally calling a callback `fn`.
+  Show the overlay, optionally calling a callback `fn`. Emits `showing` and `show`.
 
 ### #hide(fn)
-  Hide the overlay, optionally calling a callback `fn`.
+  Hide the overlay, optionally calling a callback `fn`. Emits `hiding` and `hide`.
 
 ### #remove(fn)
-  Remove the overlay from the DOM optionally calling a callback `fn`. If the overlay isn't hidden yet, hide it first.
+  Remove the overlay from the DOM optionally calling a callback `fn`. If the overlay isn't hidden yet, hide it first. Emits `removing` and `remove`.
 
 ### #closeable()
   Make the overlay closeable by clicking on it, or hitting the `ESC` key. Aliased to `closable` for convenience.
