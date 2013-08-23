@@ -6,14 +6,14 @@
   "keywords": ["overlay", "mask", "screen"],
   "license": "MIT",
   "dependencies": {
-    "anthonyshort/after-transition": "0.0.2",
     "component/domify": "*",
     "component/emitter": "*",
     "component/event": "*",
     "ianstormtaylor/classes": "*",
     "ianstormtaylor/redraw": "*",
     "segmentio/bind-all": "*",
-    "segmentio/on-escape": "*"
+    "segmentio/on-escape": "*",
+    "yields/after-transition": "*"
   },
   "development": {
     "component/assert": "*",
