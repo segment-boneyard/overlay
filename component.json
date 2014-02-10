@@ -8,7 +8,7 @@
   "dependencies": {
     "component/emitter": "*",
     "component/domify": "*",
-    "segmentio/showable": "0.0.4",
+    "segmentio/showable": "0.0.5",
     "ianstormtaylor/classes": "0.1.0"
   },
   "development": {
