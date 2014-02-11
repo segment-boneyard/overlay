@@ -7,13 +7,13 @@
     body {
       padding: 150px;
     }
-    div:not(.overlay) {
+    div:not(.Overlay) {
       position: relative;
       padding: 15px 25px;
       border: 1px solid #eee;
       width: 200px;
     }
-    .overlay {
+    .Overlay {
       background: radial-gradient(ellipse at center, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.55) 100%);
     }
   </style>
@@ -28,8 +28,6 @@
   <script>
     var overlay = require('overlay');
     overlay()
-      .closable()
-      .temporary()
       .on('hide', function () {
         var div = document.querySelector('body > div');
         overlay(div).show();
