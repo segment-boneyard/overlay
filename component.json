@@ -2,13 +2,13 @@
   "name": "overlay",
   "repo": "segmentio/overlay",
   "description": "A simple overlay UI component.",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "keywords": ["overlay", "mask", "screen"],
   "license": "MIT",
   "dependencies": {
     "component/emitter": "*",
     "component/domify": "*",
-    "segmentio/showable": "0.1.1",
+    "segmentio/showable": "0.1.x",
     "ianstormtaylor/classes": "0.1.0"
   },
   "development": {
